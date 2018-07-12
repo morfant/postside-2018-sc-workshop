@@ -372,6 +372,12 @@ b.set(\freq, 300, \sin_freq, 3, \pulse_freq, 8, \amp, 1.9);
 #7 혼자서 공부하기 등
 --------------------------------------------------------------------------------
 
+startup file 공유 : startup file에 적혀있는 명령들은 sc를 실행할 때 자동으로 수행됩니다.
+예를들면 server 부팅이나 FreqScope, meter 등을 띄워 주는 일 등.
+아래 링크를 통해 제가 현재 쓰고 있는 startup.scd 파일을 받으실 수 있고
+이 내용을 file->open startup 후에 열리는 파일에 붙여 넣고 저장하시면 됩니다.
+https://drive.google.com/open?id=1CdRBMQBRDSOeCtiNnw49r3w6NQ7l0YCz
+
 중요!! 도움말 문서 보는 법
 구글링 - 생각보다 잘 안나올 수 있고, 어떤 질문을 해야 하는지 알기 어려울 수 있음
 
