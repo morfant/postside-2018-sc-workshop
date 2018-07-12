@@ -355,10 +355,10 @@ TempoClock.default.tempo_(50/60); // 기본 시계. 60/60 일 경우 1.0.wait의
 ~mel = Pdef(\seq_mel,
 	Pbind(
 		\instrument, \gobeat,
-        \freq, Pseq([ 52, 54, 56, 57, 56, 54, 56 ], inf).midicps,
+        \freq, Pseq([ 52, 54, 56, 57, 56, 54, 56*0.75 ], inf).midicps,
 		\dur, Pseq([0.75, 0.25, 0.75, 0.25, 0.5, 0.5, 1]*0.9, inf),
 		\delta, Pseq([0.75, 0.25, 0.75, 0.25, 0.5, 0.5, 1], inf),
-		\amp, Pseq([0.3, 0.2, 0.3, 0.2, 0.3, 0.3, 0.31], inf)
+		\amp, Pseq([0.3, 0.2, 0.3, 0.2, 0.3, 0.3, 0.31]*2, inf)
 	)
 ).play(~t2); // ~t2를 템포로 이용하도록 설정
 )
